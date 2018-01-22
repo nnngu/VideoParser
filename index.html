@@ -1,0 +1,107 @@
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="视频在线解析">
+    <link rel="stylesheet" href="./css/bootcss_pure_min.css"/>
+    <link rel="stylesheet" href="./css/main.css"/>
+    <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css" media="all">
+    <script type="text/javascript" src="js/player.js"></script>
+
+    <title>VIP视频在线解析</title>
+</head>
+
+<body>
+<div id="main">
+
+    <!-- header -->
+    <div class="header">
+        <strong style="font-size: 20px">VIP视频在线解析</strong><br/>
+        <strong style="font-size: 16px">源代码：<a target="_blank" href="https://github.com/nnngu/VideoAnalysis">https://github.com/nnngu/VideoAnalysis</a></strong>
+    </div>
+
+    <!-- Description -->
+    <div class="col-md-14 column">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <span style="color: rgb(254, 139, 31); display: block; text-align: center;">本站将长久更新，保证可用性！若播放异常，请刷新或者更换线路！<span>            <br></span></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- iframe （播放器） -->
+    <div class="col-md-14 column">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <iframe id="iframePlayer" allowtransparency="true" scrolling="no" src="./html/index_2.html"
+                        frameborder="0" height="550px"
+                        width="100%">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- 输入区域 -->
+    <div class="col-md-14 column">
+        <!-- 选择线路 -->
+        <div class="col-md-3" style="margin-top: 8px;">
+            <div class="input-group" style="width: 100%;">
+                <select id="sel" class="form-control input-lg" name="jk">
+                    <option value="http://jqaaa.com/jx.php?url=">线路1</option>
+                    <option value="http://api.662820.com/xnflv/index.php?url=">线路2</option>
+                    <option value="http://api.xfsub.com/index.php?url=">线路3</option>
+                    <option value="http://jiexi.92fz.cn/player/vip.php?url=">线路4</option>
+                    <option value="http://api.nepian.com/ckparse/?url=">线路5</option>
+                    <option value="http://aikan-tv.com/?url=">线路6</option>
+                    <option value="http://j.zz22x.com/jx/?url=">线路7</option>
+                    <option value="http://www.efunfilm.com/yunparse/index.php?url=">线路8</option>
+                    <option value="https://api.flvsp.com/?url=">线路9</option>
+                    <option value="http://api.xfsub.com/index.php?url=">线路10</option>
+                    <option value="http://api.47ks.com/webcloud/?v=">线路11</option>
+                    <option value="http://17kyun.com/api.php?url=">线路12</option>
+                    <option value="http://api.iy11.cn/apiget.php?url=">线路13</option>
+                    <option value="http://tv.x-99.cn/api/wnapi.php?id=">线路14</option>
+                    <option value="http://www.52rjb.cn/vip1/?url=">线路15</option>
+                </select>
+            </div>
+        </div>
+        <!-- 输入播放地址 -->
+        <div class="col-md-7" style="margin-top: 8px;">
+            <div class="input-group" style="width: 100%;">
+                <input value="http://v.youku.com/v_show/id_XMzIwMjA1OTM2NA==.html" id="url"
+                       class="form-control input-lg" name="url" placeholder="输入播放地址" type="text">
+            </div>
+        </div>
+        <!-- 立即播放按钮 -->
+        <div>
+            <div class="col-md-2" style="margin-top: 8px;">
+                <div class="col-md-14 column">
+                </div>
+                <button type="button" class="btn btn-default btn-lg btn-block" onclick="playVideo();">立即播放
+                </button>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <br/>
+
+</div>
+<br/>
+<br/>
+
+<div class="alert alert-danger col-md-12" role="alert" align="center">敬告：本站不提供任何视频缓存服务，所提供的解析服务均来自于互联网。</div>
+
+<div>
+    <div class="col-md-12" align="center">
+        <span style="font-size: 16px">
+            Create by ：<a href="https://github.com/nnngu" target="_blank">nnngu</a>
+        </span>
+    </div>
+    <br/>
+    <br/>
+</div>
+<br/>
+
+</body>
+</html>
